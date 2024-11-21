@@ -4,8 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "阿牛的世界",
   description: "A VitePress Site",
+  base: '/zo-start/',
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'details', link: '/intro' }
