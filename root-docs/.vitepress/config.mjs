@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "阿牛的世界",
+  title: "深岩焰界 | 阿牛宇宙",
   description: "A VitePress Site",
   base: '/zo-start/',
   themeConfig: {
