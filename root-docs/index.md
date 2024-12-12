@@ -13,7 +13,7 @@ features:
 
   - icon: 📔
     title: zo-laws
-    details:  我的笔记库分库
+    details:  阿牛的 LAW 库
     link: /intro.md#laws
 
 
