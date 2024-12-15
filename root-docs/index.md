@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: zoHome
 features:
   - icon: 🎁
     title: zo-life

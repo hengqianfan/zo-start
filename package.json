@@ -6,5 +6,8 @@
     "docs:dev": "vitepress dev root-docs   --port 8082 ",
     "docs:build": "vitepress build root-docs",
     "docs:preview": "vitepress preview root-docs"
+  },
+  "dependencies": {
+    "sass": "^1.83.0"
   }
 }
