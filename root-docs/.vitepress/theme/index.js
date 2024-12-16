@@ -1,7 +1,7 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
-import './style.css'
+import './style/index.scss'
 
 import zoHome from './components/zo-home/index.vue'
 
