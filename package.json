@@ -8,6 +8,7 @@
     "docs:preview": "vitepress preview root-docs"
   },
   "dependencies": {
-    "sass": "^1.83.0"
+    "sass": "^1.83.0",
+    "vitepress-plugin-announcement": "^0.1.3"
   }
 }
