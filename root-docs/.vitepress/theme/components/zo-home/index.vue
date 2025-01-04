@@ -104,10 +104,11 @@ $zs_bg_01: #eff0f3;
     background-color: $zs_bg_01;
 
     .zs-home-navbar {
-        margin: 0 auto;
+        margin: 0px auto;
         margin-top: 15px;
+        padding: 10px;
         height: 40px;
-        min-width: 600px;
+        min-width: 100px;
         max-width: 80vh;
         background-color: white;
         display: flex;
@@ -121,6 +122,7 @@ $zs_bg_01: #eff0f3;
 
 
         .zs-home-navbar-item {
+            margin: 0 10px;
             width: 80px;
             height: 25px;
             background-color: $zs_bg_01;
@@ -233,109 +235,16 @@ $zs_bg_01: #eff0f3;
 
         background-color: white;
         height: 40px;
-        width: 800px;
+        // width: 800px;
         border-radius: 10px;
         margin: 0 auto;
         margin-top: 15px;
+        padding: 0 10px;
         text-align: center;
         line-height: 40px;
-        font-size: 14px;
+        font-size: 12px;
         color: #7b8082;
+
     }
 }
-
-// .myhome {
-//     width: 100%;
-//     height: 80vh;
-//     background-color: rgb(231, 228, 228);
-
-//     .card-group {
-
-//         display: flex;
-//         flex-direction: column;
-
-//         .card-group-title {
-
-//             height: 30px;
-//             line-height: 30px;
-//             background-color: white;
-//             width: 200px;
-//             margin: 0 auto;
-//             margin-top: 20px;
-//             text-align: center;
-//             font-size: 16px;
-//             border-radius: 15px;
-//             font-weight: 600;
-
-//         }
-
-//         .card-group-content {
-//             width: 100%;
-//             display: flex;
-//             padding: 20px;
-//             flex-wrap: wrap;
-
-
-//             .card {
-//                 border: 2px dashed transparent;
-//                 margin: 15px;
-//                 height: 150px;
-//                 width: 320px;
-//                 ;
-//                 background-color: rgb(197, 214, 210);
-//                 border-radius: 10px;
-
-
-//                 .card-top {
-//                     width: 300px;
-//                     height: 50px;
-//                     margin: 20px;
-//                     display: flex;
-//                     flex-direction: row;
-//                     justify-content: space-between;
-
-//                     .card-icon {
-//                         width: 50px;
-//                         height: 50px;
-//                     }
-
-//                     .card-title {
-//                         width: 200px;
-//                         height: 50px;
-//                         line-height: 50px;
-//                         font-size: 20px;
-//                         font-weight: 500;
-//                         color: #266548;
-//                         // text-align: center;
-//                     }
-//                 }
-
-//                 .card-content {
-//                     height: 50px;
-//                     font-size: 12px;
-//                     // 首行缩进
-//                     text-indent: 12px;
-//                     margin: 15px;
-//                     padding: 5px;
-//                     background-color: white;
-//                     border-radius: 8px;
-//                     color: rgb(110, 110, 116);
-//                 }
-//             }
-
-//             .card:hover {
-//                 border: 2px dashed rgb(23, 82, 95);
-
-//                 .card-top {
-
-
-//                     .card-icon {}
-
-//                     .card-title {}
-//                 }
-
-//                 .card-content {}
-//             }
-//         }
-//     }
-// }</style>
+</style>
